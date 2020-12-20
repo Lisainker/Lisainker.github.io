@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="style2.css">
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Login</title>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+				background: url(OIP(1).jpg) no-repeat;
+				min-height: 100vh;
+			}
+			.title {
+				margin: 0;
+				padding: 20px;
+				font-size: 36px;
+				text-align: center;
+			}
+			.nav {
+				min-height: 80vh;
+				width: 180px;
+				background: #888888;
+				border-radius: 0 0 10px 0;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+				align-items: stretch;
+				transition: 0.4s;
+				position: relative;
+				left: -180px;
+			}
+			.nav::before {
+				content: '目录';
+				width: 30px;
+				height: 100px;
+				border-radius: 0 8px 8px 0;
+				background: #888888;
+				position: absolute;
+				top: 0px;
+				right: -30px;
+				font-family: '宋体';
+				font-size: 22px;
+				text-align: center;
+				line-height: 50px;
+				color: #82ccdd;
+			}
+			.nav:hover {
+				left: 0;
+			}
+			.btn {
+				height: 40px;
+				flex-grow: 1;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.btn a {
+				color: #82ccdd;
+				text-decoration: none;
+				font-size: 16px;
+				transition: 0.4s;
+				font-family: '宋体';
+			}
+			.btn a:hover {
+				font-size: 40px;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<p class="title">更多个人信息（本页面还在实验，没有填充内容，但可能随时更新，上个页面如果及其不美观可以调整页面大小试试看）</p>
+		<div class="nav">
+			<div class="btn"><a href="">个人具体信息</a></div>
+			<div class="btn"><a href="">日志</a></div>
+			<div class="btn"><a href="">学习内容及笔记</a></div>
+			<div class="btn"><a href="">动漫杂谈</a></div>
+			<div class="btn"><a href="">社交账号</a></div>
+			<div class="btn"><a href="">前端博客</a></div>
+
+		</div>
+	</body>
+</html>
